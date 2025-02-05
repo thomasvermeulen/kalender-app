@@ -73,13 +73,13 @@ Volg deze stappen om de applicatie lokaal te draaien:
 ## 🖼️ Screenshots
 
 ### 🔑 Inlogpagina
-![Inlogpagina Screenshot](https://media.discordapp.net/attachments/1096212248399204375/1330643363095117874/image.png?ex=678eb9b3&is=678d6833&hm=200b54605cc310b57894fb82342b7f5e58b08404aa8ead21e1962b2e630f76b8&=&format=webp&quality=lossless&width=1440&height=653)
+![Inlogpagina Screenshot](https://cdn.discordapp.com/attachments/1096212248399204375/1330643363095117874/image.png?ex=67a47a73&is=67a328f3&hm=85dcbc3f09a8f82a490853b504916d104fcdc84584d611adcf3b337ecc9ad321&)
 
 ### 📊 Dashboard
-![Dashboard Screenshot](https://media.discordapp.net/attachments/1096212248399204375/1330643641034870886/image.png?ex=678eb9f6&is=678d6876&hm=f8c6e58c47c2fef35f443540da2b62dbfdeaceb05db8f6135784da0244c8009d&=&format=webp&quality=lossless&width=1440&height=652)
+![Dashboard Screenshot](https://cdn.discordapp.com/attachments/1096212248399204375/1330643641034870886/image.png?ex=67a47ab6&is=67a32936&hm=1ce79f65d8ce203be9476a150a7eaf1fe4466ac0bfb80df2f750d2abd8ff6d03&)
 
 ### 🛠 Admin Dashboard
-![Admin Dashboard Screenshot](https://media.discordapp.net/attachments/1096212248399204375/1330643882333175888/image.png?ex=678eba2f&is=678d68af&hm=885e7afaae0f06137109d0f7c52328567e7c2229a5cc42cc3858719aaf27b511&=&format=webp&quality=lossless&width=1440&height=652)
+![Admin Dashboard Screenshot](https://cdn.discordapp.com/attachments/1096212248399204375/1330643882333175888/image.png?ex=67a47aef&is=67a3296f&hm=009a944ea3474ed174c54a61a98a481e352fbb14b0f5ab00afe65a1fa9149e02&)
 
 ## 📚 Bronnenlijst
 
