@@ -86,5 +86,5 @@ Volg deze stappen om de applicatie lokaal te draaien:
 - **Achtergrond**: [papers.co](https://papers.co/desktop/vy76-wave-color-purple-pattern-background)
 - **Code formatter**:  [formatter.org](https://formatter.org/)
 
-👨‍💻 **Gemaakt door JOUW NAAM**. Feedback en bijdragen zijn altijd welkom! 🚀
+👨‍💻 **Gemaakt door Thomas Vermeulen**. Feedback en bijdragen zijn altijd welkom! 🚀
 
