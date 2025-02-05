@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="nl">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Nieuwe Agenda Toevoegen
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid d-flex justify-content-between">
+        <a href="/" class="navbar-brand">
+          kalender.io
+        </a>
+        <div>
+          <a href="/" class="btn btn-secondary me-2">
+            <i class="fas fa-arrow-left">
+            </i>
+            Terug
+          </a>
+          <a href="/logout" class="btn btn-danger">
+            <i class="fas fa-sign-out-alt">
+            </i>
+            Uitloggen
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5 pt-3">
+      <h1 class="mb-4 text-center">
+        Nieuwe Agenda Toevoegen
+      </h1>
+      <div class="card">
+        <div class="card-header">
+          <strong>
+            Vul onderstaande gegevens in:
+          </strong>
+        </div>
+        <div class="card-body">
+          <form action="/agenda/nieuw" method="POST">
+            <div class="mb-3">
+              <label for="url_name" class="form-label">
+                URL Naam
+              </label>
+              <input type="text" class="form-control border border-dark" id="url_name"
+              name="url_name" placeholder="Bijvoorbeeld: voetbalwedstrijden-2025" required>
+            </div>
+            <div class="mb-4">
+              <label for="title" class="form-label">
+                Titel
+              </label>
+              <input type="text" class="form-control border border-dark" id="title"
+              name="title" placeholder="Bijvoorbeeld: Voetbalwedstrijden 2025" required>
+            </div>
+            <button type="submit" class="btn btn-success w-100">
+              <i class="fas fa-save">
+              </i>
+              Opslaan
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
+    </script>
+  </body>
+
+</html>

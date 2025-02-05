@@ -1,0 +1,363 @@
+/* Optimized CSS File */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    background-image: url("/static/images/background.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    margin-top: 80px;
+    padding: 0 15px;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn-primary, .btn-purple, .login-btn {
+    background-color: #9e3ee0;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover, .btn-purple:hover, .login-btn:hover {
+    background-color: #a26beb;
+}
+
+.pagination .page-link {
+    color: #6c757d;
+}
+
+.pagination .page-link:hover {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.pagination .active .page-link {
+    background-color: #9e3ee0;
+    border-color: #9e3ee0;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    max-width: 400px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid #9e3ee0;
+}
+
+.form-check-input:hover {
+    border-color: #ab6fe9;
+}
+
+.form-check-input:checked {
+    background-color: #a26beb;
+    border-color: #9e3ee0;
+}
+
+input[type="text"], input[type="password"] {
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #9e3ee0;
+    box-shadow: 0 0 5px #9e3ee0;
+}
+
+.home-button {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.list-group-item {
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.list-group-item h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.list-group-item p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+}
+
+.text-muted {
+    color: #6c757d !important;
+    font-size: 0.9rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.error-page a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.error-page a:hover {
+    color: #ddd;
+}
+
+.error-page h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.error-page p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.error-page .btn {
+    text-decoration: none;
+}
+
+.error-page .btn:hover {
+    text-decoration: none;
+}
+
+.search-form input[type="date"],
+.search-form input[type="text"],
+.search-form button {
+    width: 100%;
+    height: 38px;
+    box-sizing: border-box;
+}
+
+.search-form input[type="date"] {
+    padding: 0.375rem 0.75rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.input-group-text {
+    background-color: white;
+}
+
+.search-form .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    padding: 0 10px;
+}
+
+.dashboard-card .card {
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.dashboard-card .card-body {
+    padding: 20px;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 0;
+}
+
+.table-responsive {
+    border: none;
+    margin-bottom: 0;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .search-form .col-md-3 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .nav-buttons {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .event-header {
+        width: 100%;
+    }
+
+    .event-description {
+        text-align: left;
+        width: 100%;
+    }
+
+    .event-time {
+        width: 100%;
+        text-align: left;
+    }
+
+    .list-group-item {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        margin-top: 30px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .card {
+        margin: 0;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .navbar .btn {
+        padding: 0.375rem 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    .navbar .btn i {
+        margin-right: 2px;
+    }
+
+    .d-grid {
+        gap: 0.5rem !important;
+    }
+
+    textarea.form-control {
+        height: 100px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .dashboard-cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .table td, .table th {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .btn-sm {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.75rem;
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .pagination .page-item {
+        margin: 2px;
+    }
+
+    .pagination .page-link {
+        padding: 0.375rem 0.75rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .login-container {
+        padding: 20px;
+    }
+}
